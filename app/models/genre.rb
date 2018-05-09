@@ -12,11 +12,11 @@ class Genre < ActiveRecord::Base
     # return the number of artists associated with the genre
   end
 
-  # def all_artist_names
-  #   # singer = []
-  #   # singer << self.artists.all
-  #   # singer.map do |singer|
-  #   #   singer.name
-  #   # return an array of strings containing every musician's name
-  # end
+  def all_artist_names
+    # singer = []
+    # singer << self.artists.all
+    # singer.map do |singer|
+    #   singer.name
+    # return an array of strings containing every musician's name
+  end
 end
